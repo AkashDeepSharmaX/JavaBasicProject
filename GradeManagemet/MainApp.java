@@ -30,7 +30,7 @@ public class MainApp {
         if (avg >= 90){
             System.out.println(" Grade  : A+ ");
         }
-        else if (avg <=90){
+        else if (avg >=80){
             System.out.println(" Grade : A");
         }
         else if (avg >= 75) {
@@ -47,6 +47,7 @@ public class MainApp {
          
 
 i++;
+break;
         }
     }
     }

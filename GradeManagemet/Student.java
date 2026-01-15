@@ -5,14 +5,14 @@ public class Student {
     private int englishmark;
     private int mathmark;
     private int sciencemark;
-    private int soscialmark;   
-       public Student(int id, String name, int englishmark, int mathmark, int sciencemark, int soscialmark) {
+    private int socialmark;   
+       public Student(int id, String name, int englishmark, int mathmark, int sciencemark, int socialmark) {
         this.id = id;
         this.name = name;
         this.englishmark = englishmark;
         this.mathmark = mathmark;
         this.sciencemark = sciencemark;
-        this.soscialmark = soscialmark;
+        this.socialmark = socialmark;
     }
 
     public int getEnglishmark() { 
@@ -33,11 +33,11 @@ public class Student {
     public void setSciencemark(int sciencemark) {
         this.sciencemark = sciencemark;
     }
-    public int getSoscialmark() {
-        return soscialmark;
+    public int getSocialmark() {
+        return socialmark;
     }
-    public void setSoscialmark(int soscialmark) {
-        this.soscialmark = soscialmark;
+    public void setSocialmark(int socialmark) {
+        this.socialmark = socialmark;
     }
     public Student(int id ,String name){
         this.id = id;
